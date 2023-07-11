@@ -163,3 +163,168 @@
             font-weight: 700;
         }
       }
+
+      @media screen and (min-width:960px){
+        main{
+            margin: 10% auto;
+            padding: 0px;
+            width: 680px;
+            height:480px;
+            display: flex;
+            flex-direction: row;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border-radius: 25px;
+        }
+
+        .top-section{
+            background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+            display: flex;
+            flex-direction: column;
+            justify-content:space-evenly;
+            align-items: center;
+            text-align: center;
+            border-radius: 25px;
+            padding: 10px;
+        }
+        .top-section h1 {
+            color:  hsl(241, 100%, 89%);
+            margin-bottom: 0px;
+        }
+        .meter {
+            background-image: linear-gradient( hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0)) ;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            padding:5px 15px;
+            border-radius: 50%;
+            height: 160px;
+            width: 150px;
+            margin-top: 0.5rem;
+        }
+        .meter h2 {
+            margin: 0px;
+            color: hsl(0, 0%, 100%);
+            font-size: 3rem;
+            font-family: "Hanken-Grotesk", Arial, sans-serif;
+        }
+        .meter p{
+            margin: 0px;
+            color: hsl(241, 100%, 89%);
+            font-size: 1rem !important;
+        }
+        .top-section h3 {
+            color: hsl(0, 0%, 100%);
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 0px;
+            margin-top: 10px;
+        }
+
+        .top-section p{
+            max-width: 50vw;
+            color: hsl(241, 100%, 89%);
+            font-size: 1.2rem;
+            font-weight: 500;
+            line-height: 1.5rem;
+        }
+
+        .second-section{
+            background-color: hsl(0, 0%, 100%);
+            width: 400px;
+            margin:0 35px;
+        }
+
+        .result-section{
+            display: flex;
+            flex-direction: column;
+            justify-content: stretch;
+            gap: 1.5rem;
+        }
+
+        .result-section h2 {
+            font-size: 1.5rem;
+            color: hsl(224, 30%, 27%);
+            margin-bottom: 0px;
+        }
+
+        .result-card {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            justify-items: center;
+            padding: 18px 15px;
+            border-radius: 10px;
+
+        }
+
+        .result-card h3 {
+            font-size: 0.9rem;
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            justify-content: center;
+            margin: 0px;
+        }
+
+        .result-card strong{
+            color: hsl(224, 30%, 27%);
+            font-size: 1rem;
+            font-weight: 700;
+        }
+        .result-card span{
+            color: hsl(166, 100%, 37%);
+            font-size: 1rem;
+            font-weight: 700;
+        }
+        .result-card.reaction{
+            background-color: hsl(0, 100%, 98%);
+        }
+        .result-card.memory{
+            background-color: hsl(39, 100%, 98%);
+        }
+        .result-card.verbal{
+            background-color: hsl(166, 100%, 98%);
+        }
+        .result-card.visual{
+            background-color: hsl(234, 85%, 98%);
+        }
+        .result-card.reaction h3 {
+            color: hsl(0, 100%, 67%);
+        }
+        .result-card.memory h3 {
+            color:  hsl(39, 100%, 56%);
+        }
+        .result-card.verbal h3 {
+            color:  hsl(166, 100%, 37%);
+        }
+        .result-card.visual h3 {
+            color:  hsl(234, 85%, 45%);
+        }
+
+        .button{
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn-submit {
+            width: 100%;
+            color:  hsl(0, 0%, 100%);
+            background-color: hsl(224, 30%, 27%);
+            border: none;
+            padding: 1.15rem 5rem;
+            border-radius: 25px;
+            font-size: 1rem;
+            font-weight: 700;
+        }
+
+        .btn-submit:hover{
+            background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+            cursor: pointer;
+        }
+
+      }
